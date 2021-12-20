@@ -1,0 +1,6 @@
+{
+	"name": "integrationRuntimeaula03",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
