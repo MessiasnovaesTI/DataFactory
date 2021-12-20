@@ -84,7 +84,13 @@
 							"inputs": [
 								{
 									"referenceName": "AzureMySqlTable1",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"tableName": {
+											"value": "@item().table_name",
+											"type": "Expression"
+										}
+									}
 								}
 							],
 							"outputs": [
