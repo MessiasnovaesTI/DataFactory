@@ -1,0 +1,15 @@
+{
+	"name": "MySqlTableCarlocalocacao",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "aula03SqlCarloca",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "MySqlTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "`loc_pedido_locacao`"
+		}
+	}
+}

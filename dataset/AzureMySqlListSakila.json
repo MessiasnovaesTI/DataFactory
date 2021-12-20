@@ -1,0 +1,12 @@
+{
+	"name": "AzureMySqlListSakila",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureMySql1aula03",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureMySqlTable",
+		"schema": []
+	}
+}
