@@ -1,0 +1,20 @@
+{
+	"name": "Parquet6",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorageaula03",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "aluguel_total.parquet",
+				"fileSystem": "organization"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
